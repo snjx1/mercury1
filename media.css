@@ -1,0 +1,104 @@
+@media(max-width:720px){
+    #catalog nav{
+        display: none;
+    }
+    #video_bottom {
+        padding-left: 10vh;
+        padding-bottom: 10vh;
+    }
+    header nav{
+        display: none;
+    }
+    #tel{
+        display: none;
+    }
+    #telega{
+        display: none;
+    }
+    #whats{
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        margin-right: 30px;
+    }
+    header  {
+        padding-right: 0;
+    }
+    header nav a {
+        font-size: 2vw;
+    }
+
+    .text_logo h1 {
+        font-size: 3rem;
+    }
+
+    #catalog nav a {
+        font-size: 2.5vw;
+    }
+
+    .right, .left {
+        width: 100%;
+        margin: 0;
+        font-size: 2vw;
+    }
+
+    .flex_container {
+        flex-direction: column;
+    }
+
+    #tables div, #Tumbi div {
+        width: 80%;
+    }
+
+    footer {
+        padding: 20px 10%;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+        color: white;
+        font-size: 24px;
+    }
+
+    .text_logo h1 {
+        font-size: 2rem;
+    }
+
+    #catalog nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #catalog nav a {
+        font-size: 4vw;
+    }
+
+    #tables div, #Tumbi div {
+        width: 90%;
+    }
+
+    .right, .left {
+        font-size: 3vw;
+    }
+
+    footer {
+        padding: 20px 5%;
+    }
+}
+
